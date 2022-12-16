@@ -6,6 +6,11 @@ Wanted an HP 16C calculator, the gold standard for early programmers.  Didn't ha
 
 Python is well suited to this application given a full suite of excellent string manipulation and math libraries, adafruit libraries, etc.  Execution speed is not an issue.
 
+I was helped a lot during development with access to a couple of different software emulators out there (http://www.hp16c.org/ and https://stendec.io/ctb/rpn_prog.html), especially when I can see what's happeneing with the stack.  The manual https://literature.hpcalc.org/community/hp16c-oh-en.pdf was also essential reading.
+
+An early version of this project got a mention on the Raspberry Pi blog https://www.raspberrypi.com/news/replica-hp-16c-coding-calculator/ and on Adafruit's Python on Hardware newsletter https://blog.adafruit.com/2022/10/19/icymi-python-on-microcontrollers-newsletter-ladyada-at-espressif-devcon-this-week-circuitpython-8-beta-2-and-more-circuitpython-icymi-raspberrypi-micropython-raspberry_pi/
+
+
 Tools and materials used:
   - Raspberry Pi Pico
   - 1602 LCD display (w. i2c backback)
