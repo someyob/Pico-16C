@@ -2,7 +2,7 @@ import board
 import keypad
 import time
 
-TIMEOUT_INTERVAL = 30  # 5 minutes
+TIMEOUT_INTERVAL = 300  # 5 minutes
 
 #  KEYPAD CONSTANTS
 KP_DECIMAL_PT = 32
