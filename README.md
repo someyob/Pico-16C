@@ -4,13 +4,14 @@ Wanted an HP 16C calculator, the gold standard for early programmers.  Didn't ha
 
 ![20221216_111350](https://user-images.githubusercontent.com/3163755/208143630-0adfedb8-aefc-4b81-bcc0-ad03d90b67fd.jpg)
 
-Python is well suited to this application given a full suite of excellent string manipulation and math libraries, etc.  Execution speed is not an issue.
+Python is well suited to this application given a full suite of excellent string manipulation and math libraries, adafruit libraries, etc.  Execution speed is not an issue.
 
 Tools and materials used:
   - Raspberry Pi Pico
+  - 1602 LCD display (w. i2c backback)
   - breadboards and soldering iron
   - perfboard, w. 22awg wire
-  - level shifter module
+  - level shifter module (only using 2 out of 4 lines for i2c)
   - two 3x4 and one 4x4 aliexpress keypads (modified to jam as close together as possible)
   - 3d Printer
   - Glue gun
