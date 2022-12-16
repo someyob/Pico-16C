@@ -4,27 +4,40 @@ Wanted an HP 16C calculator, the gold standard for early programmers.  Didn't ha
 
 ![20221216_111350](https://user-images.githubusercontent.com/3163755/208143630-0adfedb8-aefc-4b81-bcc0-ad03d90b67fd.jpg)
 
+Python is well suited to this application given a full suite of excellent string manipulation and math libraries, etc.  Execution speed is not an issue.
+
 Tools and materials used:
   - Raspberry Pi Pico
   - breadboards and soldering iron
   - perfboard, w. 22awg wire
-  level shifter module
-  two 3x4 and one 4x4 aliexpress keypads (modified to jam as close together as possible)
-  3d Printer
-  Glue gun
-  PTouch Labelmaker
-  Laser printer (for keypad overlay), highlighter pens
-  Thonny with Circuitpython 7.2.3
+  - level shifter module
+  - two 3x4 and one 4x4 aliexpress keypads (modified to jam as close together as possible)
+  - 3d Printer
+  - Glue gun
+  - PTouch Labelmaker
+  - Laser printer (for keypad overlay), highlighter pens
+  - Thonny with Circuitpython 7.2.3
   
 The software emulates (mimics) the basic operations of a 16C, all in Reverse Polish Notation (RPN) with the standard X, Y, Z and T registers.
 What it's currently capable of:
-  integer entry in either hexadecimal, octal, decimal or binary
-  conversions between those bases
-  ordinary arithmatic (+ - / *), some bitwise operations (NOT, AND, etc)
-  stack operations x<->y, R^, Rv
+  - integer entry in either hexadecimal, octal, decimal or binary
+  - conversions between those bases
+  - ordinary arithmatic (+ - / *), some bitwise operations (NOT, AND, etc)
+  - stack operations x<->y, R^, Rv
   
 Differences between this and a real 16C:
-  maximum 128 bit words (vs 16C 64 bit)
-  16 character display, with eight 16 character windows, scrolling with shift-g < and > keys
-  'Enter' key is standard size, not double lenth like a real 16C
+  - maximum 128 bit words (vs 16C 64 bit)
+  - 16 character display, with eight 16 character windows, scrolling with shift-g < and > keys
+  - 'Enter' key is standard size, not double lenth like a real 16C
+  - Has a splash screen that gives you the current version number
+  - Has a timeout feature that turns off the LCD after 5 minutes (hard coded)
+  - The calculator is always 'running', ON and OFF simply turns off the display and backlight
+
+Work to come in the near future:
+  - floating point
+  - more bitwise operations, 1's and 2's complement arithmetic
+
+Work to come in the far future (if ever):
+  - Programming mode
+
   
