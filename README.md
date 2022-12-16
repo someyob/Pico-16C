@@ -6,7 +6,7 @@ Wanted an HP 16C calculator, the gold standard for early programmers.  Didn't ha
 
 Python is well suited to this application given a full suite of excellent string manipulation and math libraries, adafruit libraries, etc.  Execution speed is not an issue.
 
-I was helped a lot during development with access to a couple of different software emulators out there (http://www.hp16c.org/ and https://stendec.io/ctb/rpn_prog.html), especially when I can see what's happeneing with the stack.  The manual https://literature.hpcalc.org/community/hp16c-oh-en.pdf was also essential reading.
+I was helped a lot during development with access to a couple of different software emulators out there (http://www.hp16c.org/ and https://stendec.io/ctb/rpn_prog.html), especially when I can see what's happening with the stack.  The manual https://literature.hpcalc.org/community/hp16c-oh-en.pdf was also essential reading.
 
 An early version of this project got a mention on the Raspberry Pi blog https://www.raspberrypi.com/news/replica-hp-16c-coding-calculator/ and on Adafruit's Python on Hardware newsletter https://blog.adafruit.com/2022/10/19/icymi-python-on-microcontrollers-newsletter-ladyada-at-espressif-devcon-this-week-circuitpython-8-beta-2-and-more-circuitpython-icymi-raspberrypi-micropython-raspberry_pi/
 
@@ -14,7 +14,7 @@ An early version of this project got a mention on the Raspberry Pi blog https://
 
 Tools and materials used:
   - Raspberry Pi Pico
-  - 1602 LCD display (w. i2c backback)
+  - 1602 LCD display (w. i2c backpack)
   - breadboards and soldering iron
   - perfboard, w. 22awg wire
   - level shifter module (only using 2 out of 4 lines for i2c)
@@ -30,7 +30,7 @@ What it's currently capable of:
   - integer entry in either hexadecimal, octal, decimal or binary
   - conversions between those bases
   - ordinary arithmatic (+ - / *), some bitwise operations (NOT, AND, etc)
-  - stack operations x<->y, R^, Rv
+  - stack operations x<->y, R^, Rv, LastX
   
 Differences between this and a real 16C:
   - maximum 128 bit words (vs 16C 64 bit)
