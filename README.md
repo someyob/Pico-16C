@@ -10,6 +10,7 @@ I was helped a lot during development with access to a couple of different softw
 
 An early version of this project got a mention on the Raspberry Pi blog https://www.raspberrypi.com/news/replica-hp-16c-coding-calculator/ and on Adafruit's Python on Hardware newsletter https://blog.adafruit.com/2022/10/19/icymi-python-on-microcontrollers-newsletter-ladyada-at-espressif-devcon-this-week-circuitpython-8-beta-2-and-more-circuitpython-icymi-raspberrypi-micropython-raspberry_pi/
 
+![display](https://user-images.githubusercontent.com/3163755/208183857-9a8b2352-2085-4349-9562-698ef9c96bff.jpg)
 
 Tools and materials used:
   - Raspberry Pi Pico
