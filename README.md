@@ -3,8 +3,8 @@
 Notes for new version 0.5:
   - added floating point entry and operations.  Note that CicruitPython only uses single precision floats, so some results will seem unexpected.  < examples follow >  I may restrict the number of decimal places (for example, entering float mode by pressing f-FLOAT-{0..9,.}, where 0 to 9 represents the number of decimal points you want to work with) to 5, even though that doesn't really mitigate the issue.  Best option would be for CircuitPython to match what Python 3 is able to handle double precision floats.  Not going to get hung up on it, as I would typically not frequently use the calculator for floating point calculations.
   - Differences between Pico16C 0.5 and the HP 16C:
-      - switching from an intager base to floating point will convert what's in the X register, but the opposite is not true.
-      - added a 'hidden function' to allow for a 'thousands separator' (eg. 64,636) to make readibility better for long numbers.  Unfortunately, separators do not work for binary and hex representations (eg. 1100 1100 0001, or FFEH AE12)
+      - switching from an integer base to floating point will convert what's in the X register, but the opposite is not true.  Further, the conversion from integer to float simply changes the representation, not the number.  The stack is unchanged, and the word size is ignored.
+      - added a 'hidden function' to allow for a 'thousands separator' (eg. 64,636) to make readability better for long numbers.  Unfortunately, separators do not work for binary and hex representations (eg. 1100 1100 0001, or FFEH AE12) due to a bug in CicruitPython as of version 8)
 
 Wanted an HP 16C calculator, the gold standard for early programmers.  Didn't have one, too cheap to buy one off eBay, and while the new ones you can get from SwissMicro https://www.swissmicros.com/product/dm16l look great, they don't scratch my other itch, which is to play with microcontrollers and learn a new language (python).
 
