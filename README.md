@@ -1,3 +1,6 @@
+Hi there, while you're here, maybe check out the newer version of this project:
+https://github.com/someyob/Pico16cV2
+
 # Pico-16C
 
 Notes for new version 0.5:
